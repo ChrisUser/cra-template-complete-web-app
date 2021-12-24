@@ -1,0 +1,70 @@
+{
+  "name": "cra-template-complete-web-app",
+  "version": "1.0.0",
+  "description": "CRA template with: typescript, axios, sass, react-router, redux and much more already configured.",
+  "private": true,
+  "homepage": ".",
+  "license": "MIT",
+  "main": "template.json",
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.12",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-redux": "^7.1.20",
+    "axios": "^0.24.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.1.1",
+    "react-scripts": "4.0.3",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "sass-loader": "^12.3.0",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "redux",
+    "reduxjs",
+    "react-redux",
+    "sass",
+    "axios",
+    "react-router",
+    "react-router-dom"
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
+}
