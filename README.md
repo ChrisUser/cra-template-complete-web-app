@@ -19,9 +19,11 @@ To use this template for your app you can run:
 
 ```sh
 npx create-react-app my-app --template complete-web-app
+```
 
-# or
+or
 
+```sh
 yarn create react-app my-app --template complete-web-app
 ```
 
