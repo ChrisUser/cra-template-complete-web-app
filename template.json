@@ -1,5 +1,7 @@
 {
     "package": {
+      "version": "1.0.0",
+      "homepage": ".",
       "dependencies": {
         "@testing-library/jest-dom": "^5.11.4",
         "@testing-library/react": "^12.1.2",
@@ -21,6 +23,16 @@
         "redux-thunk": "^2.4.1",
         "sass-loader": "^12.3.0",
         "typescript": "^4.5.4"
-      }
+      },
+      "postcss": {
+        "plugins": {
+          "autoprefixer": {}
+        }
+      },
+      "browserslist": [
+        "defaults",
+        "not IE 11",
+        "maintained node versions"
+      ]
     }
   }

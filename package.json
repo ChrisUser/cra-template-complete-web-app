@@ -1,6 +1,6 @@
 {
   "name": "cra-template-complete-web-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CRA template with: typescript, axios, sass, react-router, redux and much more already configured.",
   "homepage": ".",
   "license": "MIT",
@@ -55,15 +55,5 @@
     "axios",
     "react-router",
     "react-router-dom"
-  ],
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "defaults",
-    "not IE 11",
-    "maintained node versions"
   ]
 }
