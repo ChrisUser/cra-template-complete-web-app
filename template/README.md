@@ -11,9 +11,9 @@ Describe your project, how it works and how to contribute to it.
 
 In the project directory, you can run:
 
-## ⚡️ start
+<br />
 
----
+## ⚡️ start
 
 ```
 npm start
@@ -28,13 +28,9 @@ yarn start
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
----
-
 <br />
 
 ## 🧪 test
-
----
 
 ```
 npm test
@@ -47,8 +43,6 @@ yarn test
 ```
 
 Launches the test runner in the interactive watch mode.
-
----
 
 <br />
 
