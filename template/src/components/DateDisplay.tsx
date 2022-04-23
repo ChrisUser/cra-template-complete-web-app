@@ -8,7 +8,10 @@ const DateDisplay: React.FC = () => {
      * On component render sets the date state to current date and time
      */
     useEffect(() => {
-        setDate(moment.utc().toString())
+        const interval = setInterval(() => {
+            setDate(moment().toDate().toString())
+        }, 1000)
+        return () => clearInterval(interval)
     }, [])
 
     return (

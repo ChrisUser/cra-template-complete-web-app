@@ -6,7 +6,7 @@ import data from './data'
 
 const persistConfig = {
     key: 'root',
-    storage: storage,
+    storage,
     whitelist: ['data'], // elements that will be persisted
     blacklist: [] // elements that will not be persisted
 }
