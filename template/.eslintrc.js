@@ -29,6 +29,7 @@ module.exports = {
         '@typescript-eslint/member-delimiter-style': 0,
         '@typescript-eslint/no-empty-function': 0,
         '@typescript-eslint/no-explicit-any': 0,
+        '@typescript-eslint/no-non-null-assertion': 'off',
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'warn'
     },
