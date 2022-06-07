@@ -65,6 +65,38 @@ The build is minified and the filenames include the hashes.
 
 <br />
 
+## 🧶 lint
+
+```
+npm lint
+```
+
+or
+
+```
+yarn lint
+```
+
+Creates a `.eslintcache` file in which ESLint cache is stored. Running this command can dramatically improve ESLint's running time by ensuring that only changed files are linted.
+
+<br />
+
+## 🎯 format
+
+```
+npm format
+```
+
+or
+
+```
+yarn format
+```
+
+Checks if your files are formatted. This command will output a human-friendly message and a list of unformatted files, if any.
+
+<br />
+
 # 🧬 Project structure
 
 This is the structure of the files in the project:
