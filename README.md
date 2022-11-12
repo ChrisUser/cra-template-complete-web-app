@@ -30,8 +30,6 @@ yarn create react-app my-app --template complete-web-app
 
 The `--template` parameter points to this template, note that `cra-template-` prefix is omitted.
 
-<br />
-
 # ⚠️ Warning
 
 Cloning this repo pulls down the template only, not a bundled and configured Create React App.
