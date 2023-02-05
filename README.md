@@ -6,7 +6,7 @@ CRA template with: typescript, axios, sass, react-router, redux and much more al
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
-- [Redux](https://react-redux.js.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Router](https://reactrouter.com/)
 - [Axios](https://axios-http.com/)
 - [Moment](https://momentjs.com/)

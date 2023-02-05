@@ -1,12 +1,3 @@
-import { ReduxAction } from '../../types/reducers'
+import { createAction } from '@reduxjs/toolkit'
 
-export enum DATA_ACTIONS {
-    SET_CONTENTS = 'dataActions/setContents'
-}
-
-export const setDataContents: ReduxAction<string[]> = (contents) => {
-    return {
-        type: DATA_ACTIONS.SET_CONTENTS,
-        payload: contents
-    }
-}
+export const setContents = createAction<string[]>('data/setContents')
