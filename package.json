@@ -1,6 +1,6 @@
 {
   "name": "cra-template-complete-web-app",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "CRA template with: typescript, axios, sass, react-router, redux and much more already configured.",
   "license": "MIT",
   "main": "template.json",
