@@ -16,21 +16,43 @@ module.exports = {
         jest: true
     },
     rules: {
-        "no-control-regex": 0,
-        'no-undef': 0,
-        'no-unused-vars': 'off',
-        'react/prop-types': 0,
-        '@typescript-eslint/camelcase': 0,
-        '@typescript-eslint/no-unused-vars': 1,
-        '@typescript-eslint/no-use-before-define': 0,
-        '@typescript-eslint/ban-ts-comment': 0,
-        '@typescript-eslint/ban-ts-ignore': 0,
-        '@typescript-eslint/explicit-member-accessibility': 0,
-        '@typescript-eslint/member-delimiter-style': 0,
-        '@typescript-eslint/no-empty-function': 0,
-        '@typescript-eslint/no-explicit-any': 0,
-        '@typescript-eslint/no-non-null-assertion': 'off',
-        'react-hooks/rules-of-hooks': 'error',
+        '@typescript-eslint/naming-convention': [
+            'warn',
+            {
+                selector: 'default',
+                format: ['camelCase']
+            },
+            {
+                selector: 'parameter',
+                format: ['camelCase'],
+                trailingUnderscore: 'allowSingleOrDouble'
+            },
+            {
+                selector: 'class',
+                format: ['PascalCase']
+            },
+            {
+                selector: 'enum',
+                format: ['PascalCase', 'UPPER_CASE']
+            },
+            {
+                selector: 'enumMember',
+                format: ['PascalCase', 'UPPER_CASE']
+            },
+            {
+                selector: 'interface',
+                format: ['PascalCase']
+            },
+            {
+                selector: 'typeAlias',
+                format: ['PascalCase']
+            },
+            {
+                selector: 'typeParameter',
+                format: ['PascalCase']
+            }
+        ],
+        'react-hooks/rules-of-hooks': 'warn',
         'react-hooks/exhaustive-deps': 'warn'
     },
     settings: {
