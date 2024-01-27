@@ -19,10 +19,6 @@ module.exports = {
         '@typescript-eslint/naming-convention': [
             'warn',
             {
-                selector: 'default',
-                format: ['camelCase']
-            },
-            {
                 selector: 'parameter',
                 format: ['camelCase'],
                 trailingUnderscore: 'allowSingleOrDouble'
