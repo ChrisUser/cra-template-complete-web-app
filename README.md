@@ -6,6 +6,10 @@ CRA template with: typescript, axios, sass, react-router, redux and much more al
 > Create React App is ([unofficially](https://github.com/facebook/create-react-app/issues/13393)) becoming an unsupported tool, for this reason i've created a [new template](https://github.com/ChrisUser/vite-complete-react-app) using Vite with the same features as this one.\
 > I will continue to support this template for as long as possible but I strongly suggest you to switch to the newer one.
 
+<div align="center">
+    <h1>✨ Now supports React 19 and React Router 7 ✨</h1>
+</div>
+
 ## ⚗️ Technologies list
 
 - [TypeScript](https://www.typescriptlang.org/)
